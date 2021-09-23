@@ -19,11 +19,12 @@ React初心者のためのアナリティクスツール作成レポジトリ
 
 1. 基本的なReact構成を作成する
 ```bash
->> npx create-react-app games
+
+>> npx create-react-app etude --template typescript
 Success! Created games at /home/harapeco/go/src/github.com/Harapecopecopeco/Etude_React/games
 Inside that directory, you can run several commands:
 
 >> ls
-games  README.md
+etude README.md
 
 ```
