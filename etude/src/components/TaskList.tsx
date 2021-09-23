@@ -22,4 +22,26 @@ const TaskList: React.FC<Props> = ({tasks, setTasks}) => {
             t.id !== task.id
         ))
     }
+
+    return (
+        <div className="inner">
+            {
+                tasks.length <= 0 ? '登録されたTODOはありません' :
+                    <ul className="task-list">
+                        {
+                            tasks.map(task => (
+                                <TaskItem
+                                    key={task.id}
+                                    task={task}
+                                    handleDone={handleDone}
+                                    handleDelete={handleDelete}
+                                />
+                            ))
+                        }
+                    </ul>
+            }
+        </div>
+    )
 }
+
+export default TaskList
