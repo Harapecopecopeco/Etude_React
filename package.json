@@ -1,6 +1,9 @@
 {
   "name": "Etude_React",
   "version": "1.0.0",
-  "dependencies": {
-  }
+  "description": "Create typescript ",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/Harapecopecopeco/Etude_React.git",
+  "author": "Harapecopecopeco <yusuke.watanabe@hopin.co.jp>",
+  "license": "MIT"
 }
