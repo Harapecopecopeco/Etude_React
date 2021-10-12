@@ -1,12 +1,8 @@
 {
   "name": "Etude_React",
   "version": "1.0.0",
-  "description": "Create typescript ",
   "main": "index.js",
   "repository": "ssh://git@github.com/Harapecopecopeco/Etude_React.git",
   "author": "Harapecopecopeco <yusuke.watanabe@hopin.co.jp>",
-  "license": "MIT",
-  "dependencies": {
-    "typescript": "3.7.5"
-  }
+  "license": "MIT"
 }
